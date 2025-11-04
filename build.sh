@@ -1,7 +1,3 @@
-#!/bin/bash
-echo "🏗️ Building application..."
-sleep 2
-echo "✅ Build complete!"
-echo "🧪 Running tests..."
-sleep 2
-echo "✅ All tests passed!"
+#!/bin/sh
+echo "🚀 Starting simple web server..."
+python3 -m http.server 80
